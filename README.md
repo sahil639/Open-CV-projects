@@ -3,7 +3,9 @@
 Concepts used in this project:
 
 1.Image thresholding - 
+
 2.Image masking - 
+
 3.Space Conversion - 
 4.Video input - 
 
