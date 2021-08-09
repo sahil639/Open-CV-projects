@@ -32,7 +32,7 @@ while(True):
 	inspect = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
 	#getting the HSV values for masking the invisible cloak
-    
+
 	upper_hue = cv2.getTrackbarPos("upper_hue", "bars")
 	upper_saturation = cv2.getTrackbarPos("upper_saturation", "bars")
 	upper_value = cv2.getTrackbarPos("upper_value", "bars")
@@ -52,6 +52,7 @@ while(True):
 	mask = cv2.dilate(mask,kernel,5)
 	
 	#The mixing of frames in a combination to achieve the required frame
+    
 	b = frame[:,:,0]
 	g = frame[:,:,1]
 	r = frame[:,:,2]
