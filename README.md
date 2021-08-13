@@ -17,16 +17,16 @@ Concepts used in this project:
 
 System Requirements: Python 3 , OpenCV, Numpy installed.
 
-..*Steps to run this program:
+..* Steps to run this program:
 
-1.Keep the PC camera stable and ensure that there frame is empty or void of the object that is going to be targeted for masking
+1. Keep the PC camera stable and ensure that there frame is empty or void of the object that is going to be targeted for masking
 
-2.Run the python script in your preferred IDE, I used jupyter notebook.
+2. Run the python script in your preferred IDE, I used jupyter notebook.
 
-3.Couple of windows will pop up: The first window consists of sliders for Hue, Saturation, Value of colour of sheet, the second displaying live video output.
+3. Couple of windows will pop up: The first window consists of sliders for Hue, Saturation, Value of colour of sheet, the second displaying live video output.
 
-4.Adjust the HSV values for the color of the object that you want to use as an object to hide yourself in its color range.
+4. Adjust the HSV values for the color of the object that you want to use as an object to hide yourself in its color range.
 
-5.Play around with different objects and use thenm as your invisibility cloak
+5. Play around with different objects and use thenm as your invisibility cloak
 
-6.Star this repo for future OpenCV projects!!!💯✨
+6. Star this repo for future OpenCV projects!!!💯✨
